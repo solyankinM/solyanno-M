@@ -54,15 +54,15 @@
               <Parent>0</Parent>
             </CustomProperties>
             <Location>
-              <X>-230 px</X>
-              <Y>-80 px</Y>
+              <X>-280 px</X>
+              <Y>-120 px</Y>
             </Location>
             <Size>
               <Width>120 px</Width>
-              <Height>90 px</Height>
+              <Height>127 px</Height>
             </Size>
             <DbOid>
-              <Path>kadri.dolj</Path>
+              <Path>kadri.dolz</Path>
               <TypeName>Table</TypeName>
             </DbOid>
             <Compartments>
@@ -77,15 +77,15 @@
               <Parent>0</Parent>
             </CustomProperties>
             <Location>
-              <X>-40 px</X>
+              <X>-70 px</X>
               <Y>-200 px</Y>
             </Location>
             <Size>
-              <Width>136 px</Width>
-              <Height>90 px</Height>
+              <Width>172 px</Width>
+              <Height>161 px</Height>
             </Size>
             <DbOid>
-              <Path>kadri.dolz</Path>
+              <Path>kadri.kadri</Path>
               <TypeName>Table</TypeName>
             </DbOid>
             <Compartments>
@@ -100,15 +100,15 @@
               <Parent>0</Parent>
             </CustomProperties>
             <Location>
-              <X>-60 px</X>
-              <Y>-90 px</Y>
+              <X>-120 px</X>
+              <Y>20 px</Y>
             </Location>
             <Size>
-              <Width>172 px</Width>
-              <Height>144 px</Height>
+              <Width>120 px</Width>
+              <Height>107 px</Height>
             </Size>
             <DbOid>
-              <Path>kadri.kadri</Path>
+              <Path>kadri.oklad</Path>
               <TypeName>Table</TypeName>
             </DbOid>
             <Compartments>
@@ -123,15 +123,15 @@
               <Parent>0</Parent>
             </CustomProperties>
             <Location>
-              <X>160 px</X>
-              <Y>90 px</Y>
+              <X>200 px</X>
+              <Y>-140 px</Y>
             </Location>
             <Size>
-              <Width>120 px</Width>
-              <Height>90 px</Height>
+              <Width>142 px</Width>
+              <Height>107 px</Height>
             </Size>
             <DbOid>
-              <Path>kadri.oklad</Path>
+              <Path>kadri.podrazdel</Path>
               <TypeName>Table</TypeName>
             </DbOid>
             <Compartments>
@@ -146,15 +146,15 @@
               <Parent>0</Parent>
             </CustomProperties>
             <Location>
-              <X>-200 px</X>
-              <Y>100 px</Y>
+              <X>-480 px</X>
+              <Y>-120 px</Y>
             </Location>
             <Size>
-              <Width>142 px</Width>
-              <Height>90 px</Height>
+              <Width>120 px</Width>
+              <Height>107 px</Height>
             </Size>
             <DbOid>
-              <Path>kadri.podrazdel</Path>
+              <Path>kadri.dolzj</Path>
               <TypeName>Table</TypeName>
             </DbOid>
             <Compartments>
@@ -163,13 +163,305 @@
               <TriggersCollapsed>True</TriggersCollapsed>
             </Compartments>
           </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>6</OID>
+              <Comment>7</Comment>
+              <OutModel>1</OutModel>
+              <InModel>5</InModel>
+              <OutPort>8</OutPort>
+              <InPort>9</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>54.7943548387097 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>8</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>53.5 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>9</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>-300 px</X>
+                <Y>-65.2056451612903 px</Y>
+              </PointD>
+              <PointD>
+                <X>-300 px</X>
+                <Y>-66.5 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>kadri.dolz.FK_dolz_dolzj_id_dolz</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>7</OID>
+              <HolderModel>6</HolderModel>
+              <Port>10</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>50 px</X>
+                  <Y>1.29435483870969 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>10</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>11</OID>
+              <Comment>12</Comment>
+              <OutModel>2</OutModel>
+              <InModel>1</InModel>
+              <OutPort>13</OutPort>
+              <InPort>14</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>120.5 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>13</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>40.5 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>14</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>kadri.kadri.FK_kadri_dolz_kolvo</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>12</OID>
+              <HolderModel>11</HolderModel>
+              <Port>15</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>45 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>15</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>16</OID>
+              <Comment>17</Comment>
+              <OutModel>1</OutModel>
+              <InModel>3</InModel>
+              <OutPort>18</OutPort>
+              <InPort>19</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>95.25 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>18</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>60 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>Left Right</Anchors>
+                <Align>Top</Align>
+                <CustomProperties>
+                  <OID>19</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <BendPoints>
+              <PointD>
+                <X>-60 px</X>
+                <Y>-24.75 px</Y>
+              </PointD>
+            </BendPoints>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>kadri.dolz.FK_dolz_oklad_oklad</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>17</OID>
+              <HolderModel>16</HolderModel>
+              <Port>20</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>-50 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>20</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
+          <Model xsi:type="RelationLinkModel">
+            <CustomProperties>
+              <OID>21</OID>
+              <Comment>22</Comment>
+              <OutModel>2</OutModel>
+              <InModel>4</InModel>
+              <OutPort>23</OutPort>
+              <InPort>24</InPort>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>135.75 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>23</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+              <Port>
+                <Location>
+                  <X>0 px</X>
+                  <Y>75.75 px</Y>
+                </Location>
+                <Anchors>Top Bottom</Anchors>
+                <Align>Left</Align>
+                <CustomProperties>
+                  <OID>24</OID>
+                  <PortType>FloatAnchor</PortType>
+                </CustomProperties>
+              </Port>
+            </PortAnchors>
+            <IsManuallyRouted>false</IsManuallyRouted>
+            <DbOid>
+              <Path>kadri.kadri.FK_kadri_podrazdel_podrazdel</Path>
+              <TypeName>ForeignKey</TypeName>
+            </DbOid>
+          </Model>
+          <Model xsi:type="RelationCommentModel">
+            <CustomProperties>
+              <OID>22</OID>
+              <HolderModel>21</HolderModel>
+              <Port>25</Port>
+              <Parent>0</Parent>
+            </CustomProperties>
+            <PortAnchors>
+              <Port xsi:type="LinkPort">
+                <Location>
+                  <X>-49 px</X>
+                  <Y>0 px</Y>
+                </Location>
+                <Anchors>None</Anchors>
+                <Align>Right</Align>
+                <CustomProperties>
+                  <OID>25</OID>
+                  <PortType>FixedAnchor</PortType>
+                </CustomProperties>
+                <LinkPortAnchor>OutPoint</LinkPortAnchor>
+              </Port>
+            </PortAnchors>
+            <CommentOffset>
+              <X>22 px</X>
+              <Y>2 px</Y>
+            </CommentOffset>
+          </Model>
         </Children>
         <ViewPort>
           <ScaleMode>Free</ScaleMode>
           <Scale>1</Scale>
           <Location>
             <X>-542 px</X>
-            <Y>-250 px</Y>
+            <Y>-247 px</Y>
           </Location>
         </ViewPort>
       </Model>
